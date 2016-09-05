@@ -5,6 +5,22 @@
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link rel="shortcut icon" href="favicon.ico">
 	<title>Lección 19</title>
+	<style type="text/css">
+		body {
+			text-align: center;
+			background-color: #9FF0D6;
+		}
+		input {
+			border:transparent;
+		}
+		.boton {
+			margin-top: 2%;
+			padding: 0.5% 0.7%;
+			background-color: #5C4A6E;
+			color: black;
+			border: transparent;
+		}
+	</style>
 </head>
 <body>
 	<h1>Ejercicio 3</h1>
@@ -12,14 +28,16 @@
 		<label for="palabra">
 			Palabra
 		</label>
+		<br>
 		<input type="text" name="palabra" id="palabra"><br>
 		<label for="letra">
 			Letra
 		</label>
+		<br>
 		<input type="text" name="letra" id="letra"><br>
-		<button type="button" id="calcular">Calcular</button>
+		<button type="button" id="contar" class="boton">CONTAR</button>
 	</form>
-	<div id="resultado"></div>
+	<div id="contador"></div>
 	</form>
 	<!-- JavaScript -->
 	<script type="text/javascript" src="main.js"></script>
