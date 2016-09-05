@@ -6,9 +6,10 @@ window.addEventListener("load", function() {
 
 		var resultado = document.getElementById("resultado");
 		resultado.innerHTML = "<p>EL RESULTADO DEL TIPO DE CAMBIO ES: " + suma(numero1,numero2).toFixed(2) + "</p>";
-	});
+		
+	};
 
 	function suma(numero1, numero2) {
 		return numero1 / numero2;
 	}
-});
+};
